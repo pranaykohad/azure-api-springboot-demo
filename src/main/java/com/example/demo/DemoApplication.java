@@ -20,7 +20,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		System.out.println("Server started on port 8080 ...");
+		System.out.println("Server started on port 8080 .....");
 		log.info("info: Server started...");
 		log.debug("debug: Server started...");
 		log.error("error: Server started...");
